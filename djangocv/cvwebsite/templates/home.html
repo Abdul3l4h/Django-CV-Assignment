@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joe Bloggs - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static '../static/css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{%static '../static/images/GOAT.png' %}" alt="Abdulelah Alasmari" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Abdulelah Alasmari</h1>
+			<h2 class="quickFade delayThree">MS Cybersecurity Candidate at NYU</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li><a href="mailto:abdulelahalasmari@hotmail.com" target="_blank">abdulelahalasmari@hotmail.com</a></li>
+				<li>+1 573 388-6593</li>
+				<li><a href="https://github.com/Abdul3l4h" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/abdulelah-a-796a06289" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+				<li><a href="https://medium.com/@abdulelahalasmari" target="_blank"><i class="fab fa-medium"></i> Medium</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Professional Summary</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>I am a highly motivated and accomplished cybersecurity professional with a strong academic background and extensive hands-on experience in penetration testing, vulnerability analysis, secure software development, and IT support. Currently pursuing a Master of Science in Cybersecurity at New York University (NYU) with a perfect 4.00 GPA, I previously earned a Bachelor of Science in Cybersecurity (Summa Cum Laude) from Florida International University (FIU), where I graduated with a 3.98 GPA and was recognized as the #1 Outstanding Graduate in Cybersecurity.
+
+						My academic excellence is complemented by practical experience, including my current role as a Teaching Assistant for Penetration Testing and Vulnerability Analysis at NYU. In this position, I guide students in ethical hacking methodologies, exploit development, and reporting best practices. I evaluate student-executed penetration tests, conduct technical reviews of exploit code, and provide guidance on various pentesting techniques.
+						
+						As an Information Technology Intern at FIU, I developed Python scripts to automate vulnerability testing and risk assessments, conducted security audits, and supported secure architecture design. In my role as a Student Tutor and Cybersecurity Technician, I led the setup of a secure lab for ethical hacking, tutored over 200 students in cybersecurity and computer science topics, and secured Linux virtual machines for penetration testing exercises.
+						My experience as a Student Web Developer at Stetson University allowed me to audit source code for security flaws, transition Bootstrap frameworks, and develop dynamic websites using PHP, HTML5, CSS3, and JavaScript. I implemented security best practices to prevent vulnerabilities such as SQL injection and cross-site scripting.
+						
+						I have demonstrated leadership skills through my positions as Vice-President & Researcher at NYU's OSIRIS Cybersecurity Club and President of FIU's KFSCIS Student Advisory Council. In these roles, I've led research initiatives, workshops, and advocated for student interests.
+						My technical skills include proficiency in tools like Nmap, Metasploit, and Burp Suite, as well as programming languages such as Python, Bash, and Java. I'm also experienced with various operating systems, including Windows and multiple Linux distributions.
+						
+						One of my significant achievements was leading the SecureHaven project at FIU, where I identified and resolved 871 vulnerabilities using Snyk AI and the NIST framework. This project showcased my ability to handle large-scale security challenges and implement effective solutions.
+						
+						As a blog writer on Medium, I am committed to sharing my knowledge and insights with the cybersecurity community, contributing to the ongoing dialogue about emerging threats and best practices in the field.
+						
+						My passion for cybersecurity, combined with my technical expertise, leadership experience, and commitment to education, positions me to make significant contributions to the industry. I am constantly seeking new challenges and opportunities to advance the field of cybersecurity.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Teaching Assistant at New York University - Tandon School of Engineering</h2>
+					<p class="subDetails">January 2025 - now</p>
+					<p>As a Teaching Assistant for CS GY 6573 – Penetration Testing and Vulnerability Analysis at NYU during Spring 2025, I assisted students in mastering key penetration testing topics such as reconnaissance, vulnerability scanning, enumeration, exploitation, web application security, privilege escalation, post-exploitation, and reverse engineering. I provided support during hands-on labs, where students applied techniques to identify and exploit vulnerabilities in networks, operating systems, and applications. I also guided students in developing penetration test plans, writing professional reports, and responsibly disclosing findings. Additionally, I helped students create exploits, apply privilege escalation techniques, and ensure proper reporting practices. I held office hours to address technical questions and facilitated communication through Slack and Brightspace, helping students develop practical skills in ethical hacking methodologies while upholding academic integrity.</p>
+				</article>
+				
+				<article>
+					<h2>Information Technology Intern at Florida International University </h2>
+					<p class="subDetails">January 2024 - May 2024</p>
+					<p>As an IT Support Intern, I played a key role in enhancing system security and operational efficiency through technical expertise and problem-solving. I developed Python scripts to automate vulnerability testing and risk assessments, strengthening security in Linux environments. By conducting security audits, I identified system weaknesses and provided actionable mitigation strategies. I supported secure architecture design through code auditing and analytical problem-solving, improving risk analysis outcomes. Additionally, I delivered expert troubleshooting support to faculty, students, and staff, resolving complex hardware and software issues. My responsibilities also included ethical penetration testing, device installation and configuration, and implementing automation to boost productivity. I further contributed by creating user-friendly training materials to enhance team and end-user capabilities.</p>
+				</article>
+				
+				<article>
+					<h2>Student Tutor and Cybersecurity Technician at Florida International University: Hardware & Cybersecurity Lab</h2>
+					<p class="subDetails">May 2023 - January 2024</p>
+					<p>As a Student Tutor and Cybersecurity Technician, I combined technical expertise with a passion for education to support and empower students in cybersecurity and computer science. I led the secure setup of a cybersecurity lab, configuring Linux systems for ethical hacking, penetration testing, and static analysis exercises. This included installing over 100 operating systems, such as Linux distributions and Windows 10/11, and integrating ethical hacking tools to enhance hands-on learning. I tutored 200+ students in complex topics like operating systems, software development, cryptography, and secure coding practices, helping them excel in their coursework and assignments. Additionally, I secured Linux virtual machines for penetration testing and fuzzing exercises, ensuring a safe and effective learning environment. My role also involved assembling hardware, installing software, and fostering a collaborative space for students to develop practical cybersecurity skills.</p>
+				</article>
+
+				<article>
+					<h2>Student Web Developer at Stetson University</h2>
+					<p class="subDetails">March 2022 - June 2022</p>
+					<p>As a Student Web Developer, I combined technical skills with a strong focus on security and user experience to design and develop dynamic, responsive websites. I audited source code to identify and mitigate security flaws, implementing strategies to prevent vulnerabilities such as SQL injection (SQLi) and cross-site scripting (XSS). I successfully executed a Bootstrap code transition (3.4.1 to 4.3.1) and created webpages with seamless form integration. Utilizing PHP, HTML5, CSS3, and JavaScript, I developed client-side validation systems and dynamic websites, ensuring functionality and usability. Additionally, I optimized webpages for cross-browser compatibility and responsive design using modern front-end technologies like Bootstrap and JavaScript. My work consistently emphasized code review and security best practices to deliver secure, high-quality web solutions.</p>
+				</article>
+
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Tools</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Nmap</li>
+					<li>Nessus</li>
+					<li>Metasploit</li>
+					<li>Hydra</li>
+					<li>SQLmap</li>
+					<li>Burp Suite</li>
+					<li>OWASP ZAP</li>
+					<li>Wireshark</li>
+					<li>Snort<li>
+					<li>OpenSSL<li>
+					<li>Snyk<li>
+					<li>Splunk<li>
+					<li>Netcat<li>
+					<li>S3<li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Languages</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="languagesKnown">
+					<li>Python</li>
+					<li>PowerShell</li>
+					<li>Bash</li>
+					<li>Java</li>
+					<li>C<li>
+					<li>C++<li>
+					<li>JavaScript<li>
+					<li>HTML<li>	
+					<li>PHP<li>
+					<li>SQL<li>
+					<li>Bootstrap<li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Operating Systems</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="operatingSystems">
+					<li>Windows</li>
+					<li>macOS</li>
+					<li>Kali Linux</li>
+					<li>Kali Purple</li>
+					<li>Parrot Security OS</li>
+					<li>BackBox Linux</li>
+					<li>CAINE Linux</li>
+					<li>Ubuntu</li>
+					<li>RedHat</li>
+					<li>Oracle</li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>New York University; Brooklyn; NY</h2>
+					<p class="subDetails">Master of Science in Cybersecurity | Expected: Spring 2026</p>
+					<p>Currently pursuing a Master of Science in Cybersecurity at New York University, with an expected graduation date of May 2026 and a perfect 4.00 GPA. I am actively involved as the Vice-President of Hackers@NYU, where I help organize events and workshops that promote cybersecurity skills and collaboration among students. My coursework includes advanced topics such as penetration testing, network security, and cybersecurity policy, which are enhancing my expertise in the field.</p>
+				</article>
+				
+				<article>
+					<h2> Florida International University; Miami, FL</h2>
+					<p class="subDetails">Bachelor of Science in Cybersecurity (Summa Cum Laude) | Class of 2024'</p>
+					<p>Graduated Summa Cum Laude with a Bachelor of Science in Cybersecurity from Florida International University in April 2024, achieving a 3.98 GPA and ranking as the #1 Outstanding Graduate in Cybersecurity. I was also awarded the Enterprise IT & Cybersecurity Project Grand Prize for exceptional contributions to cybersecurity initiatives.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
