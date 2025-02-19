@@ -1,27 +1,26 @@
 # Django CV Assignment
 Individual assignment: Convert your CV to HTML using Django template
 
-### Clone the repository on your terminal
+### 1. Clone the repository on your terminal
  `git clone https://github.com/Abdul3l4h/Django-CV-Assignment.git` 
  
-### Move into the directory
+### 2. Move into the directory
 `cd Django-CV-Assignment/`
 
- 
-### Open your terminal/VSCode and create the virtual environment
+### 3. Open your terminal/VSCode and create the virtual environment
 `python3 -m venv venv`
 
-### Activate the virtual environment 
+### 4. Activate the virtual environment 
 `source venv/bin/activate`
 
-### Go into the djangocv directory 
+### 5. Go into the djangocv directory 
 `cd djangocv`
 
-### Install Django
+### 6. Install Django
 `python -m pip install django`
 
-### Run the Django application
+### 7. Run the Django application
 `python manage.py runserver`
 
-### Visit the link to view CV
+### 8. Visit the link to view CV
 `http://127.0.0.1:8000/`
