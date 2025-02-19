@@ -4,6 +4,8 @@
 ### Clone the repository on your terminal
  `git clone https://github.com/Abdul3l4h/Django-CV-Assignment.git` 
  
+### Install Django
+ 
 ### Move into the directory
 `cd Django-CV-Assignment/`
 
