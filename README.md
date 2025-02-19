@@ -12,7 +12,11 @@
  
 ### Open your terminal/VSCode
 `python3 -m venv venv`
+
 `source venv/bin/activate`
+
 `cd djangocv`
+
 `python -m pip install django`
+
 `python manage.py runserver`
