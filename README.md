@@ -1,7 +1,7 @@
 # Django CV Assignment
 Individual assignment: Convert your CV to HTML using Django template
 
-### 1. Clone the repository on your terminal
+1. Clone the repository on your terminal
  `git clone https://github.com/Abdul3l4h/Django-CV-Assignment.git` 
  
 ### 2. Move into the directory
